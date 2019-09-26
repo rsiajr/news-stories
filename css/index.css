@@ -17,3 +17,8 @@ body {
 .news-img {
   max-width: 100%;
 }
+
+.textleft{
+  text-align: left;
+  padding: 0 1em;
+}
