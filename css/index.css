@@ -1,5 +1,10 @@
+*{
+  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+}
+
 body {
   background-color: lightgrey;
+  font-family: roboto;
 }
 .stories {
   text-align: center;
@@ -10,7 +15,10 @@ body {
   overflow: hidden;
   max-width: 30em;
   margin: 1em 0;
-}
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: .5em;
+  }
+
 .news-lead {
   text-align: center;
 }
@@ -21,4 +29,8 @@ body {
 .textleft{
   text-align: left;
   padding: 0 1em;
+}
+
+.textright{
+  text-align: right;
 }
