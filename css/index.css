@@ -43,8 +43,14 @@ h1{
   padding: 0 1em;
 }
 
-.textright{
-  text-align: right;
+.newsbutton{
+  display: block;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .pagination a {
