@@ -54,10 +54,9 @@ h1{
 }
 
 .pagination a {
-  color: black;
+  color: blue;
   float: left;
   padding: 2rem .3em;
-  text-decoration: none;
   transition: background-color .3s;
 }
 
