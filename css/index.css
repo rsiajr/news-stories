@@ -9,7 +9,7 @@ body {
 }
 
 h1{
-  text-align: center;
+  text-align: left;
   color: darkblue;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 5rem;
@@ -17,9 +17,9 @@ h1{
 
 .stories {
   text-align: center;
-  display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  display: block;
 }
+
 .news {
   background-color: white;
   display: inline-block;
@@ -46,7 +46,7 @@ h1{
 .newsbutton{
   display: block;
   text-align: center;
-  background-color: black;
+  background-color: royalblue;
   color: white;
   padding: 1em;
   text-decoration: none;
@@ -66,3 +66,45 @@ h1{
 }
 
 .pagination a:hover:not(.active) {background-color: whitesmoke;}
+
+@media screen and (min-width: 40rem) {
+  body { 
+    background-color: tomato;
+    }
+  
+    .stories {
+      text-align: center;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      font-size: 1.3em;
+    }
+
+}
+
+@media screen and (min-width: 85rem) and (max-width: 138.5rem)  {
+  body { 
+    background-color: khaki;
+    }
+  
+    .stories {
+      text-align: center;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      font-size: 2em;
+    }
+
+}
+
+@media screen and (min-width: 138.5rem)  {
+  body { 
+    background-color: black;
+    }
+  
+    .stories {
+      text-align: center;
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      font-size: 2em;
+    }
+
+}
